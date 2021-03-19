@@ -1,0 +1,54 @@
+.app {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-image: url(./assets/more-leaves.png);
+  font-family: 'Titillium Web', sans-serif;
+
+  h1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.582);
+    color: rgb(64, 211, 162);
+    width: 30vw;
+    font-size: 60px;
+    margin: 0 auto;
+    border: 2px solid goldenrod;
+  }
+
+  p {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 70vw;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px solid goldenrod;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: rgb(124, 209, 181);
+    color: white;
+    font-size: medium;
+    border: none;
+    display: block;
+  }
+
+  .faces {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(./assets/more-leaves.png);
+
+
+      div {
+         width: 300px;
+      }
+  }
+}
