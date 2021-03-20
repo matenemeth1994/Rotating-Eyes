@@ -13,4 +13,4 @@ Challenge to demonstrate obtaining information from API and handing functions in
 
 ### Project Link
 
-`https://rotatingeyes.matenemeth.co.uk`
+`https://rotateeyes.matenemeth.co.uk`
