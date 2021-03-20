@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
 .app {
   margin: 0;
   padding: 0;
   padding-top: 30px;
   box-sizing: border-box;
   min-height: 100vh;
-  background-image: url(./assets/more-leaves.png);
-  font-family: 'Titillium Web', sans-serif;
+  background-image: url(./assets/background.jpg);
+  font-family: 'Syne Mono', monospace;
 
   h1 {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.582);
-    color: rgb(64, 211, 162);
     width: 30vw;
     font-size: 60px;
     margin: 0 auto;
@@ -31,10 +32,10 @@
     height: 50px;
     margin: 20px auto;
     background-color: rgb(124, 209, 181);
-    color: white;
     font-size: medium;
     border: none;
     display: block;
+    font-family: 'Syne Mono', monospace;
   }
 
   .faces {
@@ -44,11 +45,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-image: url(./assets/more-leaves.png);
+    background-image: url(./assets/background.jpg);
 
-
-      div {
-         width: 300px;
-      }
+    div {
+      width: 300px;
+    }
   }
 }

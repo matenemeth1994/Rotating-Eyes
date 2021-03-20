@@ -1,28 +1,27 @@
 .sheaCard {
+  position: relative;
 
-    position: relative;
+  img {
+    width: 100%;
+  }
 
-    img {
-        width: 100%;
+  .eyes {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .leftEye {
+      position: absolute;
+      left: 154px;
+      top: 110px;
+      width: 10%;
     }
 
-    .eyes {
-        position: absolute;
-        top: 0;
-        left: 0;
-
-        .leftEye {
-            position: absolute;
-            left: 154px;
-            top: 110px;
-            width: 10%;
-        }
-
-        .rightEye {
-            position: absolute;
-            left: 204px;
-            top: 115px;
-            width: 7%;
-        }
+    .rightEye {
+      position: absolute;
+      left: 204px;
+      top: 115px;
+      width: 7%;
     }
+  }
 }

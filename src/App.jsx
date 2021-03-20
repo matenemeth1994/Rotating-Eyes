@@ -44,15 +44,12 @@ const App = () => {
 
   return (
     <section className={styles.app}>
-      <h1>Hall of faces</h1>
+      <h1>Rotating Eyes</h1>
       <p>
-        As the course progresses, all our trainer Shea has left are the frayed
-        ends of sanity. Click the button to deploy a random number of images of
-        Shea. The angle of the eyes is controlled by you! Input an angle into
-        the box, and click the image to rotate his eyes!
+        Input an angle into the box, and click the image to rotate his eyes!
       </p>
       <button onClick={() => printTheGallery(numberOfSheaFaces)}>
-        Print SheaFaces!
+        Print f aces!
       </button>
       <div className={styles.faces}>{hallOfFaces}</div>
     </section>
