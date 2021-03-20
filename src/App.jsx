@@ -3,6 +3,7 @@ import styles from "./App.module.scss";
 import PortraitContainer from "./containers/PortraitContainer";
 import { useState, useEffect } from "react";
 
+
 const App = () => {
   const [numberOfSheaFaces, updateFaceNum] = useState(0);
   const [hallOfFaces, updateHallOfFaces] = useState([]);
@@ -49,7 +50,7 @@ const App = () => {
         Input an angle into the box, and click the image to rotate his eyes!
       </p>
       <button onClick={() => printTheGallery(numberOfSheaFaces)}>
-        Print f aces!
+        Print faces!
       </button>
       <div className={styles.faces}>{hallOfFaces}</div>
     </section>
